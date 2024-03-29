@@ -27,3 +27,6 @@ This repository contains the code for our NAACL 2024 publication. If you use thi
 
 - **check_results_for_paper.ipynb** use this notebook to view the results
 
+## Results
+
+- as described in **notebooks/check_results_for_paper.ipynb**, the csv **notebooks/dataframes_for_plots/all_scal_annos_res.csv** contains all results of scaling the number of annotators, as loading all results takes some time. But there is also a function provided loading the results of the different (sub)directories.
