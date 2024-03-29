@@ -15,18 +15,16 @@ overwrite_existing_results=${12}
 anchor_version=${13}
 save_indi_preds=${14}
 use_full=${15}
-## an_s-SC-aita-multi-mt-multi-XYZ-False-True-True-38-5
 
-#      sbatch slurm/slurm_scripts/run-any-scalability_any.slurm SC scalability aita single 0 2500 base multi 06:00:00 0 0 True NoAnchor True
-#      sbatch slurm/slurm_scripts/run-any-scalability_any.slurm SC scalability aita single 0 2500 base perso 06:00:00 0 0 True NoAnchor True
-#      sbatch slurm/slurm_scripts/run-any-scalability_any.slurm SC scalability aita multi 0 6 mt multi 06:00:00 0 0 False NoAnchor
-#      sbatch slurm/slurm_scripts/run-any-scalability_any.slurm SC scalability aita multi 0 6 uid perso 00:30:00 0 0 True NoAnchor
-##     sbatch slurm/slurm_scripts/run-any-scalability_any.slurm SC scalability aita multi 0 16 uid perso 02:00:00 6 3 True v4
-##     sbatch slurm/slurm_scripts/run-any-scalability_any.slurm SC scalability aita multi 0 58 uid perso 00:30:00 38 5 True v4
-##     sbatch slurm/slurm_scripts/run-any-scalability_any.slurm SC scalability aita multi 2 58 mt multi 00:30:00 38 5 True v3 True
-##     sbatch slurm/slurm_scripts/run-any-scalability_any.slurm MD scalability MD_emotion single 0 6 mt multi 00:30:00 0 0 True noAnchor True
-##     sbatch slurm/slurm_scripts/run-any-scalability_any.slurm MD comment_scalability MD_emotion multi 1 50 mt multi 00:45:00 0 0 True noAnchor True
-##                                                              1   2                     3         4   5  6  7  8      9      10 11 12  13        14
+#      sbatch run-any-scalability_any.slurm SC scalability aita single 0 2500 base multi 06:00:00 0 0 True NoAnchor True
+#      sbatch run-any-scalability_any.slurm SC scalability aita single 0 2500 base perso 06:00:00 0 0 True NoAnchor True
+#      sbatch run-any-scalability_any.slurm SC scalability aita multi 0 6 mt multi 06:00:00 0 0 False NoAnchor
+#      sbatch run-any-scalability_any.slurm SC scalability aita multi 0 6 uid perso 00:30:00 0 0 True NoAnchor
+##     sbatch run-any-scalability_any.slurm SC scalability aita multi 0 16 uid perso 02:00:00 6 3 True v4
+##     sbatch run-any-scalability_any.slurm SC scalability aita multi 0 58 uid perso 00:30:00 38 5 True v4
+##     sbatch run-any-scalability_any.slurm SC scalability aita multi 2 58 mt multi 00:30:00 38 5 True v3 True
+##     sbatch run-any-scalability_any.slurm MD scalability MD_emotion single 0 6 mt multi 00:30:00 0 0 True noAnchor True
+##     sbatch run-any-scalability_any.slurm MD comment_scalability MD_emotion multi 1 50 mt multi 00:45:00 0 0 True noAnchor True
 
 echo $dataset $scal_com_scal $emotion $task $seed_i $model_short $model_class >> logfile.log
      # SC      scalability    aita     multi  0       False     aa           perso         bert

@@ -21,27 +21,28 @@ if __name__ == "__main__":
     
     check_existing_results = True
 
-    emotions = ['aita'] # ['hate' 'aita']
-    tasks = ['multi'] #['multi', 'single']
-    scal_com_scal = ['scalability'] # ['scalability', 'comment_scalability']
-    model_classes = ['multi']# ['multi', 'perso']
+    emotions = ['aita'] # lists of datasets to use, each emotion corresponds to a dataset.
+    # hate aita anger fear joy disgust sadness surprise MD_emotion ArMIS_emotion HSBrexit_emotion ConvAbuse_emotion
     
-    sc_perso_multi_model_shorts = ['uid'] #['aa', 'ae', 'uid']
+    tasks = ['multi'] #['multi', 'single'] 
+    scal_com_scal = ['scalability'] # ['scalability', 'comment_scalability']
+    model_classes = ['multi']# ['multi', 'perso'] # multi is multi-tasking model from Davani et al, perso is the model from Plepi et al
+    
+    sc_perso_multi_model_shorts = ['uid'] #['aa', 'ae', 'uid'] # if we use the models from Plepi et al, we can choose: aa = Authorship attribution, ae = average embedding, uid = user ID
  
     use_full = False # for GE and GHC scalability
     overwrite_existing_results = True
     
     save_indi_preds = True
 
-    anchor_version = 'NoAnchor' #v2, v3, v4, or just sth like NoAnchor
+    anchor_version = 'NoAnchor' #one of v2, v3, v4, or just sth like NoAnchor
 
     num_anchors = 0
     num_anchors_neighbors = 0
 
     seeds = [0,1,2,3,4]
     # num_annos_list = [6, 8, 10, 12, 14, 16, 18] + list(range(22, 83, 4)) + list(range(100, 1000, 100)) + list(range(1000, 2510, 300))
-    num_annos_list =  [2500]
-    # num_annos_list = [6]
+    num_annos_list =  [2500] # the number of annotators to use, given that the a corresponding subset of the dataset exists
     
     
     anchor_v3 = anchor_version == 'v3' # flag for run time limit: v3 on multi-tasking

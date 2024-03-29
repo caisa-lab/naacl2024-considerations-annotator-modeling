@@ -10,3 +10,20 @@ This repository contains the code for our NAACL 2024 publication. If you use thi
   year = {2024},
 }
 ```
+
+## run models
+
+- **run-any-scalability_any.slurm** runs a SLURM job for training and evaluating one model run, given a number of annotators, which model to use, which dataset to use it then calls with the given parameters one of the following two scripts:
+
+  - **ft_bert_scalability.py** runs the training and evaluation of the models from [Dealing with Disagreements: Looking Beyond the Majority Vote in Subjective Annotations](https://arxiv.org/abs/2110.05719)
+
+  - **run_multi-tasking_model_GHC_GE_SC.py** runs the training and evaluation of the models from [Unifying Data Perspectivism and Personalization: An Application to Social Norms](https://aclanthology.org/2022.emnlp-main.500/)
+
+- to run many experiments at one, use the **run-any-model-any-ds.sh** or **run-multiple-experiments.py** script
+
+## Notebooks
+
+- **dataset_exploration_and_create_subsets.ipynb** provides code to create subsets from the datasets
+
+- **check_results_for_paper.ipynb** use this notebook to view the results
+
