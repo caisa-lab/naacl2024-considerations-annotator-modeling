@@ -1,0 +1,14 @@
+Device cuda
+Split type sit
+Training Size: 672, NTA labels 672, YTA labels 0
+Validation Size: 224, NTA labels 224, YTA labels 0
+Test Size: 224, NTA labels 224, YTA labels 0
+Training with SBERT, model name is sbert
+Tokenizing the dataset
+Number of training steps 210
+Epoch 0 **** Loss 0.0009384151198901236 **** Metrics validation: {'accuracy': 1.0, 'f1_weighted': 1.0, 'macro': 1.0, 'micro': 1.0, 'binary': 0.0, 'accuracy_majority': 1.0, 'macro_majority': 1.0, 'binary_majority': 0.0, 'run_time_millis': 2142.0662819999734, 'loss_mean': 0.00043952109990641475}
+Epoch 1 **** Loss 0.00027153792325407267 **** Metrics validation: {'accuracy': 1.0, 'f1_weighted': 1.0, 'macro': 1.0, 'micro': 1.0, 'binary': 0.0, 'accuracy_majority': 1.0, 'macro_majority': 1.0, 'binary_majority': 0.0, 'run_time_millis': 2227.2715359999893, 'loss_mean': 0.00010891415877267718}
+Epoch 2 **** Loss 0.00017250108066946268 **** Metrics validation: {'accuracy': 1.0, 'f1_weighted': 1.0, 'macro': 1.0, 'micro': 1.0, 'binary': 0.0, 'accuracy_majority': 1.0, 'macro_majority': 1.0, 'binary_majority': 0.0, 'run_time_millis': 878.4607860000051, 'loss_mean': 7.850035763112828e-05}
+Epoch 3 **** Loss 0.0001439987972844392 **** Metrics validation: {'accuracy': 1.0, 'f1_weighted': 1.0, 'macro': 1.0, 'micro': 1.0, 'binary': 0.0, 'accuracy_majority': 1.0, 'macro_majority': 1.0, 'binary_majority': 0.0, 'run_time_millis': 1951.8603590000794, 'loss_mean': 6.573293649125844e-05}
+Epoch 4 **** Loss 0.00012913855607621372 **** Metrics validation: {'accuracy': 1.0, 'f1_weighted': 1.0, 'macro': 1.0, 'micro': 1.0, 'binary': 0.0, 'accuracy_majority': 1.0, 'macro_majority': 1.0, 'binary_majority': 0.0, 'run_time_millis': 2204.830606000087, 'loss_mean': 5.793055606773123e-05}
+Epoch 5 **** Loss 8.858316141413525e-05 **** Metrics validation: {'accuracy': 1.0, 'f1_weighted': 1.0, 'macro': 1.0, 'micro': 1.0, 'binary': 0.0, 'accuracy_majority': 1.0, 'macro_majority': 1.0, 'binary_majority': 0.0, 'run_time_millis': 2203.1577280000647, 'loss_mean': 5.24162533110939e-05}

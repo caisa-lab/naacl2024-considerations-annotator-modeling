@@ -1,0 +1,49 @@
+Device cuda
+Split type sit
+Training Size: 83, NTA labels 81, YTA labels 2
+Validation Size: 252, NTA labels 231, YTA labels 21
+Test Size: 252, NTA labels 243, YTA labels 9
+Training with SBERT, model name is sbert
+Tokenizing the dataset
+Number of training steps 30
+Epoch 0 **** Loss 0.015278240665793419 **** Metrics validation: {'accuracy': 0.9047619047619048, 'f1_weighted': 0.8708333333333332, 'macro': 0.475, 'micro': 0.9047619047619048, 'binary': 0.0, 'accuracy_majority': 0.9047619047619048, 'macro_majority': 0.475, 'binary_majority': 0.0, 'run_time_millis': 217.5158750033006, 'loss_mean': 0.08015503734350204}
+Epoch 1 **** Loss 0.014493956230580807 **** Metrics validation: {'accuracy': 0.8928571428571429, 'f1_weighted': 0.8647798742138364, 'macro': 0.4716981132075471, 'micro': 0.8928571428571429, 'binary': 0.0, 'accuracy_majority': 0.8928571428571429, 'macro_majority': 0.4716981132075471, 'binary_majority': 0.0, 'run_time_millis': 218.2259429973783, 'loss_mean': 0.07846212387084961}
+Epoch 2 **** Loss 0.0404457226395607 **** Metrics validation: {'accuracy': 0.9087301587301587, 'f1_weighted': 0.8728343728343728, 'macro': 0.47609147609147606, 'micro': 0.9087301587301587, 'binary': 0.0, 'accuracy_majority': 0.9087301587301587, 'macro_majority': 0.47609147609147606, 'binary_majority': 0.0, 'run_time_millis': 218.1369320023805, 'loss_mean': 0.08203252404928207}
+Epoch 3 **** Loss 0.010941119864583015 **** Metrics validation: {'accuracy': 0.9126984126984127, 'f1_weighted': 0.8748271092669434, 'macro': 0.47717842323651455, 'micro': 0.9126984126984127, 'binary': 0.0, 'accuracy_majority': 0.9126984126984127, 'macro_majority': 0.47717842323651455, 'binary_majority': 0.0, 'run_time_millis': 217.2383319993969, 'loss_mean': 0.09087629616260529}
+Epoch 4 **** Loss 0.0313580185174942 **** Metrics validation: {'accuracy': 0.9166666666666666, 'f1_weighted': 0.8768115942028986, 'macro': 0.4782608695652174, 'micro': 0.9166666666666666, 'binary': 0.0, 'accuracy_majority': 0.9166666666666666, 'macro_majority': 0.4782608695652174, 'binary_majority': 0.0, 'run_time_millis': 218.28246299992315, 'loss_mean': 0.10997001826763153}
+Epoch 5 **** Loss 0.008139668963849545 **** Metrics validation: {'accuracy': 0.9166666666666666, 'f1_weighted': 0.8768115942028986, 'macro': 0.4782608695652174, 'micro': 0.9166666666666666, 'binary': 0.0, 'accuracy_majority': 0.9166666666666666, 'macro_majority': 0.4782608695652174, 'binary_majority': 0.0, 'run_time_millis': 217.14938100194559, 'loss_mean': 0.13219115138053894}
+Epoch 6 **** Loss 0.0053976536728441715 **** Metrics validation: {'accuracy': 0.9166666666666666, 'f1_weighted': 0.8768115942028986, 'macro': 0.4782608695652174, 'micro': 0.9166666666666666, 'binary': 0.0, 'accuracy_majority': 0.9166666666666666, 'macro_majority': 0.4782608695652174, 'binary_majority': 0.0, 'run_time_millis': 217.4673050030833, 'loss_mean': 0.15539459884166718}
+Epoch 7 **** Loss 0.028386831283569336 **** Metrics validation: {'accuracy': 0.9166666666666666, 'f1_weighted': 0.8768115942028986, 'macro': 0.4782608695652174, 'micro': 0.9166666666666666, 'binary': 0.0, 'accuracy_majority': 0.9166666666666666, 'macro_majority': 0.4782608695652174, 'binary_majority': 0.0, 'run_time_millis': 220.0913929991657, 'loss_mean': 0.1764216423034668}
+Epoch 8 **** Loss 0.005158454179763794 **** Metrics validation: {'accuracy': 0.9166666666666666, 'f1_weighted': 0.8768115942028986, 'macro': 0.4782608695652174, 'micro': 0.9166666666666666, 'binary': 0.0, 'accuracy_majority': 0.9166666666666666, 'macro_majority': 0.4782608695652174, 'binary_majority': 0.0, 'run_time_millis': 221.94523400685284, 'loss_mean': 0.18594253063201904}
+Epoch 9 **** Loss 0.003595746587961912 **** Metrics validation: {'accuracy': 0.9166666666666666, 'f1_weighted': 0.8768115942028986, 'macro': 0.4782608695652174, 'micro': 0.9166666666666666, 'binary': 0.0, 'accuracy_majority': 0.9166666666666666, 'macro_majority': 0.4782608695652174, 'binary_majority': 0.0, 'run_time_millis': 220.10370400676038, 'loss_mean': 0.1897982805967331}
+Evaluating
+{'accuracy': 0.9166666666666666, 'f1_weighted': 0.8768115942028986, 'macro': 0.4782608695652174, 'micro': 0.9166666666666666, 'binary': 0.0, 'accuracy_majority': 0.9166666666666666, 'macro_majority': 0.4782608695652174, 'binary_majority': 0.0, 'run_time_millis': 219.417306012474, 'loss_mean': 0.10997001826763153}
+Device cuda
+Split type sit
+Training Size: 167, NTA labels 157, YTA labels 10
+Validation Size: 252, NTA labels 231, YTA labels 21
+Test Size: 252, NTA labels 243, YTA labels 9
+Training with SBERT, model name is sbert
+Tokenizing the dataset
+Number of training steps 60
+Epoch 0 **** Loss 0.040173862129449844 **** Metrics validation: {'accuracy': 0.8492063492063492, 'f1_weighted': 0.8656994047619048, 'macro': 0.6183035714285714, 'micro': 0.8492063492063493, 'binary': 0.3214285714285714, 'accuracy_majority': 0.8492063492063492, 'macro_majority': 0.6183035714285714, 'binary_majority': 0.3214285714285714, 'run_time_millis': 217.07794000394642, 'loss_mean': 0.08957595378160477}
+Epoch 1 **** Loss 0.12554891407489777 **** Metrics validation: {'accuracy': 0.9087301587301587, 'f1_weighted': 0.8895220810647307, 'macro': 0.5792377495462795, 'micro': 0.9087301587301587, 'binary': 0.20689655172413796, 'accuracy_majority': 0.9087301587301587, 'macro_majority': 0.5792377495462795, 'binary_majority': 0.20689655172413796, 'run_time_millis': 217.1321110072313, 'loss_mean': 0.09466084837913513}
+Epoch 2 **** Loss 0.06060771271586418 **** Metrics validation: {'accuracy': 0.9047619047619048, 'f1_weighted': 0.9047619047619048, 'macro': 0.6883116883116883, 'micro': 0.9047619047619048, 'binary': 0.42857142857142855, 'accuracy_majority': 0.9047619047619048, 'macro_majority': 0.6883116883116883, 'binary_majority': 0.42857142857142855, 'run_time_millis': 216.6368050093297, 'loss_mean': 0.08298733830451965}
+Epoch 3 **** Loss 0.018483394756913185 **** Metrics validation: {'accuracy': 0.9206349206349206, 'f1_weighted': 0.9019607843137254, 'macro': 0.6218487394957983, 'micro': 0.9206349206349206, 'binary': 0.2857142857142857, 'accuracy_majority': 0.9206349206349206, 'macro_majority': 0.6218487394957983, 'binary_majority': 0.2857142857142857, 'run_time_millis': 218.8791200023843, 'loss_mean': 0.12439355254173279}
+Epoch 4 **** Loss 0.006518154870718718 **** Metrics validation: {'accuracy': 0.9206349206349206, 'f1_weighted': 0.8975431820620103, 'macro': 0.5944641132925651, 'micro': 0.9206349206349206, 'binary': 0.23076923076923073, 'accuracy_majority': 0.9206349206349206, 'macro_majority': 0.5944641132925651, 'binary_majority': 0.23076923076923073, 'run_time_millis': 222.21389699552674, 'loss_mean': 0.17791615426540375}
+Epoch 5 **** Loss 0.0035518421791493893 **** Metrics validation: {'accuracy': 0.9246031746031746, 'f1_weighted': 0.9003061934585943, 'macro': 0.6001670146137787, 'micro': 0.9246031746031746, 'binary': 0.24, 'accuracy_majority': 0.9246031746031746, 'macro_majority': 0.6001670146137787, 'binary_majority': 0.24, 'run_time_millis': 219.64010900410358, 'loss_mean': 0.21425823867321014}
+Epoch 6 **** Loss 0.006388178560882807 **** Metrics validation: {'accuracy': 0.9246031746031746, 'f1_weighted': 0.8949501340805689, 'macro': 0.5672060019886107, 'micro': 0.9246031746031746, 'binary': 0.17391304347826084, 'accuracy_majority': 0.9246031746031746, 'macro_majority': 0.5672060019886107, 'binary_majority': 0.17391304347826084, 'run_time_millis': 218.0162599979667, 'loss_mean': 0.2964754104614258}
+Epoch 7 **** Loss 0.0020992702338844538 **** Metrics validation: {'accuracy': 0.9246031746031746, 'f1_weighted': 0.8949501340805689, 'macro': 0.5672060019886107, 'micro': 0.9246031746031746, 'binary': 0.17391304347826084, 'accuracy_majority': 0.9246031746031746, 'macro_majority': 0.5672060019886107, 'binary_majority': 0.17391304347826084, 'run_time_millis': 217.13263999845367, 'loss_mean': 0.368569940328598}
+Epoch 8 **** Loss 0.0012330211466178298 **** Metrics validation: {'accuracy': 0.9325396825396826, 'f1_weighted': 0.9183424077434965, 'macro': 0.6890018148820327, 'micro': 0.9325396825396827, 'binary': 0.4137931034482759, 'accuracy_majority': 0.9325396825396826, 'macro_majority': 0.6890018148820327, 'binary_majority': 0.4137931034482759, 'run_time_millis': 216.39463200699538, 'loss_mean': 0.25379765033721924}
+Epoch 9 **** Loss 0.002810819773003459 **** Metrics validation: {'accuracy': 0.9285714285714286, 'f1_weighted': 0.920775969962453, 'macro': 0.716145181476846, 'micro': 0.9285714285714286, 'binary': 0.47058823529411764, 'accuracy_majority': 0.9285714285714286, 'macro_majority': 0.716145181476846, 'binary_majority': 0.47058823529411764, 'run_time_millis': 221.3668170006713, 'loss_mean': 0.23035624623298645}
+Evaluating
+{'accuracy': 0.9285714285714286, 'f1_weighted': 0.920775969962453, 'macro': 0.716145181476846, 'micro': 0.9285714285714286, 'binary': 0.47058823529411764, 'accuracy_majority': 0.9285714285714286, 'macro_majority': 0.716145181476846, 'binary_majority': 0.47058823529411764, 'run_time_millis': 217.1110100025544, 'loss_mean': 0.23035624623298645}
+Device cuda
+Split type sit
+Training Size: 251, NTA labels 234, YTA labels 17
+Validation Size: 252, NTA labels 231, YTA labels 21
+Test Size: 252, NTA labels 243, YTA labels 9
+Training with SBERT, model name is sbert
+Tokenizing the dataset
+Number of training steps 80
+Epoch 0 **** Loss 0.14743268489837646 **** Metrics validation: {'accuracy': 0.9126984126984127, 'f1_weighted': 0.8963431786216595, 'macro': 0.6101265822784809, 'micro': 0.9126984126984127, 'binary': 0.26666666666666666, 'accuracy_majority': 0.9126984126984127, 'macro_majority': 0.6101265822784809, 'binary_majority': 0.26666666666666666, 'run_time_millis': 221.3235970120877, 'loss_mean': 0.0928579792380333}

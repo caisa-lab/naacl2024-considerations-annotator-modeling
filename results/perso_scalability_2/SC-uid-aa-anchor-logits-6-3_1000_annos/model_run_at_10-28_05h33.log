@@ -1,0 +1,12 @@
+Device cuda
+Split type sit
+Training Size: 46083, NTA labels 32112, YTA labels 13971
+Validation Size: 14954, NTA labels 10545, YTA labels 4409
+Test Size: 16258, NTA labels 11795, YTA labels 4463
+Training with SBERT, model name is sbert
+Tokenizing the dataset
+Number of training steps 14410
+Epoch 0 **** Loss 0.2193881720304489 **** Metrics validation: {'accuracy': 0.6553430520262137, 'f1_weighted': 0.6268099370803535, 'macro': 0.5244244439178982, 'micro': 0.6553430520262137, 'binary': 0.27490151941474394, 'accuracy_majority': 0.6711915535444947, 'macro_majority': 0.5339311198087304, 'binary_majority': 0.28100263852242746, 'run_time_millis': 54150.153232971206, 'loss_mean': 0.39120206236839294}
+Epoch 1 **** Loss 0.07260357588529587 **** Metrics validation: {'accuracy': 0.6551424368062057, 'f1_weighted': 0.6498171849874369, 'macro': 0.5729330787286939, 'micro': 0.6551424368062057, 'binary': 0.3855593947337067, 'accuracy_majority': 0.6739064856711916, 'macro_majority': 0.5943589012747162, 'binary_majority': 0.41472658364916076, 'run_time_millis': 56145.93495405279, 'loss_mean': 0.37710538506507874}
+Epoch 2 **** Loss 0.3260306119918823 **** Metrics validation: {'accuracy': 0.6346128126253845, 'f1_weighted': 0.6434037261754844, 'macro': 0.5836021235774664, 'micro': 0.6346128126253845, 'binary': 0.4378600823045267, 'accuracy_majority': 0.6470588235294118, 'macro_majority': 0.5981017091622303, 'binary_majority': 0.45783132530120485, 'run_time_millis': 54099.84843293205, 'loss_mean': 0.4114668369293213}
+Epoch 3 **** Loss 0.06032651290297508 **** Metrics validation: {'accuracy': 0.6322723017252909, 'f1_weighted': 0.6419409025294907, 'macro': 0.5833757154272499, 'micro': 0.6322723017252909, 'binary': 0.44064693317058284, 'accuracy_majority': 0.644343891402715, 'macro_majority': 0.5951072264479578, 'binary_majority': 0.45391384900416865, 'run_time_millis': 55636.94952905644, 'loss_mean': 0.41788357496261597}

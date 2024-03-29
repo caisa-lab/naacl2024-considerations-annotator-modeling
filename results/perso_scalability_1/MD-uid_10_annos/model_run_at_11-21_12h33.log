@@ -1,0 +1,13 @@
+Device cuda
+Split type sit
+Training Size: 5251, NTA labels 3432, YTA labels 1819
+Validation Size: 1831, NTA labels 1217, YTA labels 614
+Test Size: 1729, NTA labels 1175, YTA labels 554
+Training with SBERT, model name is sbert
+Tokenizing the dataset
+Number of training steps 1650
+Epoch 0 **** Loss 0.41922637820243835 **** Metrics validation: {'accuracy': 0.7777170944838886, 'f1_weighted': 0.7801875815125237, 'macro': 0.7565414913813016, 'micro': 0.7777170944838886, 'binary': 0.6847405112316034, 'accuracy_majority': 0.7766323024054983, 'macro_majority': 0.7607392228293868, 'binary_majority': 0.6990740740740741, 'run_time_millis': 3142.9987010000104, 'loss_mean': 0.2282780110836029}
+Epoch 1 **** Loss 0.13172657787799835 **** Metrics validation: {'accuracy': 0.7520480611687602, 'f1_weighted': 0.7589639004588798, 'macro': 0.7447793729352672, 'micro': 0.7520480611687602, 'binary': 0.7017082785808146, 'accuracy_majority': 0.7542955326460481, 'macro_majority': 0.7516561034124682, 'binary_majority': 0.7260536398467433, 'run_time_millis': 3142.1268410000494, 'loss_mean': 0.21397848427295685}
+Epoch 2 **** Loss 0.21790258586406708 **** Metrics validation: {'accuracy': 0.7149098853085746, 'f1_weighted': 0.7213378386437346, 'macro': 0.7122816333607872, 'micro': 0.7149098853085746, 'binary': 0.6847826086956521, 'accuracy_majority': 0.7173539518900344, 'macro_majority': 0.7173287077189939, 'binary_majority': 0.7146574154379879, 'run_time_millis': 3139.1677850000406, 'loss_mean': 0.22770532965660095}
+Epoch 3 **** Loss 0.648485004901886 **** Metrics validation: {'accuracy': 0.7880939377389404, 'f1_weighted': 0.7929560735137469, 'macro': 0.7752942188618898, 'micro': 0.7880939377389404, 'binary': 0.7216642754662841, 'accuracy_majority': 0.781786941580756, 'macro_majority': 0.7761945134136741, 'binary_majority': 0.7408163265306122, 'run_time_millis': 3140.0973180000165, 'loss_mean': 0.24927474558353424}
+Epoch 4 **** Loss 0.00509875500574708 **** Metrics validation: {'accuracy': 0.809393773894047, 'f1_weighted': 0.8114540031434919, 'macro': 0.791088130398977, 'micro': 0.809393773894047, 'binary': 0.7292474786656322, 'accuracy_majority': 0.7998281786941581, 'macro_majority': 0.7900665301746659, 'binary_majority': 0.7447973713033955, 'run_time_millis': 2788.7150799999745, 'loss_mean': 0.3399457335472107}

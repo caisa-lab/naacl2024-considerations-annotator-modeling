@@ -1,0 +1,10 @@
+Device cuda
+Split type sit
+Training Size: 2015, NTA labels 1789, YTA labels 226
+Validation Size: 691, NTA labels 615, YTA labels 76
+Test Size: 674, NTA labels 603, YTA labels 71
+Training with SBERT, model name is sbert
+Tokenizing the dataset
+Number of training steps 630
+Epoch 0 **** Loss 0.08796342462301254 **** Metrics validation: {'accuracy': 0.9117221418234442, 'f1_weighted': 0.9209019148393095, 'macro': 0.823884313750068, 'micro': 0.9117221418234442, 'binary': 0.6995073891625616, 'accuracy_majority': 0.9234972677595629, 'macro_majority': 0.8552287909990457, 'binary_majority': 0.7558139534883721, 'run_time_millis': 1859.7123840008862, 'loss_mean': 0.04803473874926567}
+Epoch 1 **** Loss 0.023478608578443527 **** Metrics validation: {'accuracy': 0.8885672937771346, 'f1_weighted': 0.9028934136437791, 'macro': 0.7941359684589699, 'micro': 0.8885672937771346, 'binary': 0.6547085201793721, 'accuracy_majority': 0.9052823315118397, 'macro_majority': 0.8317062818336164, 'binary_majority': 0.7204301075268817, 'run_time_millis': 1965.6013809981232, 'loss_mean': 0.05220596492290497}

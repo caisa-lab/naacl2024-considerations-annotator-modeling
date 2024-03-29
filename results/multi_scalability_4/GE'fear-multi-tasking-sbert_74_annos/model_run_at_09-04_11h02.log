@@ -1,0 +1,570 @@
+______________________________	 Running Epoch 1 of 10 	______________________________
+[Training] Itteration/Batch:   0/354: Loss: 1.89 | Accuracy: 0.51
+[Training] Itteration/Batch:  25/354: Loss: 1.84 | Accuracy: 0.70
+[Training] Itteration/Batch:  50/354: Loss: 1.74 | Accuracy: 0.89
+[Training] Itteration/Batch:  75/354: Loss: 2.63 | Accuracy: 0.84
+[Training] Itteration/Batch: 100/354: Loss: 1.91 | Accuracy: 0.87
+[Training] Itteration/Batch: 125/354: Loss: 3.14 | Accuracy: 0.78
+[Training] Itteration/Batch: 150/354: Loss: 1.65 | Accuracy: 0.90
+[Training] Itteration/Batch: 175/354: Loss: 2.19 | Accuracy: 0.90
+[Training] Itteration/Batch: 200/354: Loss: 2.52 | Accuracy: 0.89
+[Training] Itteration/Batch: 225/354: Loss: 1.97 | Accuracy: 0.95
+[Training] Itteration/Batch: 250/354: Loss: 2.75 | Accuracy: 0.87
+[Training] Itteration/Batch: 275/354: Loss: 1.68 | Accuracy: 0.93
+[Training] Itteration/Batch: 300/354: Loss: 4.46 | Accuracy: 0.83
+[Training] Itteration/Batch: 325/354: Loss: 1.68 | Accuracy: 0.93
+[Training] Itteration/Batch: 350/354: Loss: 2.62 | Accuracy: 0.94
+
+Epoch 1: Val Bin. F1 Majority 0.0 | Val Macro F1 Majority 0.4970382337102854 |             Val Bin F1 Individual 0.04536082595586777 | Val Macro F1 Individual 0.5047416289538539 |             Val Accuracy Majority 0.9882227182388306 | Val Accuracy Individual 0.9308438897132874 | Training Loss:2.4617645740509033 |             Val Loss 2.481858968734741 | Train Runtime Millis 32666.18348204065 | Val Runtime Millis 7043.964160955511
+
+______________________________	 Running Epoch 2 of 10 	______________________________
+[Training] Itteration/Batch:   0/354: Loss: 1.87 | Accuracy: 0.93
+[Training] Itteration/Batch:  25/354: Loss: 5.25 | Accuracy: 0.86
+[Training] Itteration/Batch:  50/354: Loss: 1.72 | Accuracy: 1.00
+[Training] Itteration/Batch:  75/354: Loss: 4.93 | Accuracy: 0.95
+[Training] Itteration/Batch: 100/354: Loss: 1.71 | Accuracy: 0.97
+[Training] Itteration/Batch: 125/354: Loss: 1.78 | Accuracy: 0.97
+[Training] Itteration/Batch: 150/354: Loss: 2.69 | Accuracy: 0.94
+[Training] Itteration/Batch: 175/354: Loss: 2.69 | Accuracy: 0.98
+[Training] Itteration/Batch: 200/354: Loss: 3.09 | Accuracy: 0.94
+[Training] Itteration/Batch: 225/354: Loss: 1.72 | Accuracy: 0.97
+[Training] Itteration/Batch: 250/354: Loss: 1.64 | Accuracy: 0.98
+[Training] Itteration/Batch: 275/354: Loss: 1.50 | Accuracy: 1.00
+[Training] Itteration/Batch: 300/354: Loss: 1.71 | Accuracy: 1.00
+[Training] Itteration/Batch: 325/354: Loss: 4.05 | Accuracy: 0.92
+[Training] Itteration/Batch: 350/354: Loss: 1.81 | Accuracy: 0.97
+
+Epoch 2: Val Bin. F1 Majority 0.0 | Val Macro F1 Majority 0.4970382337102854 |             Val Bin F1 Individual 0.04273504391312599 | Val Macro F1 Individual 0.5128542954629911 |             Val Accuracy Majority 0.9882227182388306 | Val Accuracy Individual 0.9665421843528748 | Training Loss:2.3592214584350586 |             Val Loss 2.402005434036255 | Train Runtime Millis 32814.03552601114 | Val Runtime Millis 7072.8059449465945
+
+______________________________	 Running Epoch 3 of 10 	______________________________
+[Training] Itteration/Batch:   0/354: Loss: 2.13 | Accuracy: 0.93
+[Training] Itteration/Batch:  25/354: Loss: 3.10 | Accuracy: 0.94
+[Training] Itteration/Batch:  50/354: Loss: 2.08 | Accuracy: 0.97
+[Training] Itteration/Batch:  75/354: Loss: 3.57 | Accuracy: 0.95
+[Training] Itteration/Batch: 100/354: Loss: 1.61 | Accuracy: 0.95
+[Training] Itteration/Batch: 125/354: Loss: 1.53 | Accuracy: 1.00
+[Training] Itteration/Batch: 150/354: Loss: 4.62 | Accuracy: 0.96
+[Training] Itteration/Batch: 175/354: Loss: 5.49 | Accuracy: 0.89
+[Training] Itteration/Batch: 200/354: Loss: 1.35 | Accuracy: 1.00
+[Training] Itteration/Batch: 225/354: Loss: 2.80 | Accuracy: 0.95
+[Training] Itteration/Batch: 250/354: Loss: 1.51 | Accuracy: 1.00
+[Training] Itteration/Batch: 275/354: Loss: 3.38 | Accuracy: 0.92
+[Training] Itteration/Batch: 300/354: Loss: 2.43 | Accuracy: 0.98
+[Training] Itteration/Batch: 325/354: Loss: 1.53 | Accuracy: 0.98
+[Training] Itteration/Batch: 350/354: Loss: 1.73 | Accuracy: 0.95
+
+Epoch 3: Val Bin. F1 Majority 0.0 | Val Macro F1 Majority 0.4970382337102854 |             Val Bin F1 Individual 0.04188481718301773 | Val Macro F1 Individual 0.5140100650176179 |             Val Accuracy Majority 0.9882227182388306 | Val Accuracy Individual 0.9726661443710327 | Training Loss:2.2707719802856445 |             Val Loss 2.3400986194610596 | Train Runtime Millis 33207.47071295045 | Val Runtime Millis 7080.474427901208
+
+______________________________	 Running Epoch 4 of 10 	______________________________
+[Training] Itteration/Batch:   0/354: Loss: 1.64 | Accuracy: 0.98
+[Training] Itteration/Batch:  25/354: Loss: 1.44 | Accuracy: 1.00
+[Training] Itteration/Batch:  50/354: Loss: 1.64 | Accuracy: 0.97
+[Training] Itteration/Batch:  75/354: Loss: 1.52 | Accuracy: 1.00
+[Training] Itteration/Batch: 100/354: Loss: 1.55 | Accuracy: 0.97
+[Training] Itteration/Batch: 125/354: Loss: 1.34 | Accuracy: 0.98
+[Training] Itteration/Batch: 150/354: Loss: 3.87 | Accuracy: 0.94
+[Training] Itteration/Batch: 175/354: Loss: 1.24 | Accuracy: 1.00
+[Training] Itteration/Batch: 200/354: Loss: 1.46 | Accuracy: 1.00
+[Training] Itteration/Batch: 225/354: Loss: 1.42 | Accuracy: 1.00
+[Training] Itteration/Batch: 250/354: Loss: 1.32 | Accuracy: 0.98
+[Training] Itteration/Batch: 275/354: Loss: 2.45 | Accuracy: 0.99
+[Training] Itteration/Batch: 300/354: Loss: 2.32 | Accuracy: 0.96
+[Training] Itteration/Batch: 325/354: Loss: 1.39 | Accuracy: 1.00
+[Training] Itteration/Batch: 350/354: Loss: 1.83 | Accuracy: 0.98
+
+Epoch 4: Val Bin. F1 Majority 0.0 | Val Macro F1 Majority 0.4970382337102854 |             Val Bin F1 Individual 0.0 | Val Macro F1 Individual 0.4960481746330448 |             Val Accuracy Majority 0.9882227182388306 | Val Accuracy Individual 0.9843166470527649 | Training Loss:2.1970021724700928 |             Val Loss 2.291203737258911 | Train Runtime Millis 33032.98584197182 | Val Runtime Millis 7153.047471074387
+
+______________________________	 Running Epoch 5 of 10 	______________________________
+[Training] Itteration/Batch:   0/354: Loss: 1.34 | Accuracy: 1.00
+[Training] Itteration/Batch:  25/354: Loss: 2.87 | Accuracy: 0.97
+[Training] Itteration/Batch:  50/354: Loss: 1.26 | Accuracy: 1.00
+[Training] Itteration/Batch:  75/354: Loss: 1.38 | Accuracy: 1.00
+[Training] Itteration/Batch: 100/354: Loss: 2.10 | Accuracy: 0.96
+[Training] Itteration/Batch: 125/354: Loss: 1.71 | Accuracy: 1.00
+[Training] Itteration/Batch: 150/354: Loss: 1.34 | Accuracy: 1.00
+[Training] Itteration/Batch: 175/354: Loss: 1.58 | Accuracy: 1.00
+[Training] Itteration/Batch: 200/354: Loss: 1.77 | Accuracy: 0.99
+[Training] Itteration/Batch: 225/354: Loss: 5.43 | Accuracy: 0.94
+[Training] Itteration/Batch: 250/354: Loss: 5.99 | Accuracy: 0.95
+[Training] Itteration/Batch: 275/354: Loss: 1.94 | Accuracy: 0.98
+[Training] Itteration/Batch: 300/354: Loss: 3.56 | Accuracy: 0.93
+[Training] Itteration/Batch: 325/354: Loss: 1.23 | Accuracy: 1.00
+[Training] Itteration/Batch: 350/354: Loss: 3.72 | Accuracy: 0.95
+
+Epoch 5: Val Bin. F1 Majority 0.0 | Val Macro F1 Majority 0.4970382337102854 |             Val Bin F1 Individual 0.0 | Val Macro F1 Individual 0.4960481746330448 |             Val Accuracy Majority 0.9882227182388306 | Val Accuracy Individual 0.9843166470527649 | Training Loss:2.13710618019104 |             Val Loss 2.252371072769165 | Train Runtime Millis 33320.37876499817 | Val Runtime Millis 7081.845495966263
+
+______________________________	 Running Epoch 6 of 10 	______________________________
+[Training] Itteration/Batch:   0/354: Loss: 1.61 | Accuracy: 1.00
+[Training] Itteration/Batch:  25/354: Loss: 2.09 | Accuracy: 0.98
+[Training] Itteration/Batch:  50/354: Loss: 3.26 | Accuracy: 0.96
+[Training] Itteration/Batch:  75/354: Loss: 1.39 | Accuracy: 1.00
+[Training] Itteration/Batch: 100/354: Loss: 3.21 | Accuracy: 0.98
+[Training] Itteration/Batch: 125/354: Loss: 1.59 | Accuracy: 0.98
+[Training] Itteration/Batch: 150/354: Loss: 1.46 | Accuracy: 1.00
+[Training] Itteration/Batch: 175/354: Loss: 1.23 | Accuracy: 1.00
+[Training] Itteration/Batch: 200/354: Loss: 1.19 | Accuracy: 1.00
+[Training] Itteration/Batch: 225/354: Loss: 1.11 | Accuracy: 1.00
+[Training] Itteration/Batch: 250/354: Loss: 6.72 | Accuracy: 0.93
+[Training] Itteration/Batch: 275/354: Loss: 12.08 | Accuracy: 0.85
+[Training] Itteration/Batch: 300/354: Loss: 1.28 | Accuracy: 1.00
+[Training] Itteration/Batch: 325/354: Loss: 2.58 | Accuracy: 0.96
+[Training] Itteration/Batch: 350/354: Loss: 1.92 | Accuracy: 0.98
+
+Epoch 6: Val Bin. F1 Majority 0.0 | Val Macro F1 Majority 0.4970382337102854 |             Val Bin F1 Individual 0.0 | Val Macro F1 Individual 0.4960481746330448 |             Val Accuracy Majority 0.9882227182388306 | Val Accuracy Individual 0.9843166470527649 | Training Loss:2.084141254425049 |             Val Loss 2.2227084636688232 | Train Runtime Millis 33179.83337701298 | Val Runtime Millis 7113.65861305967
+
+______________________________	 Running Epoch 7 of 10 	______________________________
+[Training] Itteration/Batch:   0/354: Loss: 1.18 | Accuracy: 1.00
+[Training] Itteration/Batch:  25/354: Loss: 2.64 | Accuracy: 0.97
+[Training] Itteration/Batch:  50/354: Loss: 1.35 | Accuracy: 0.98
+[Training] Itteration/Batch:  75/354: Loss: 1.16 | Accuracy: 1.00
+[Training] Itteration/Batch: 100/354: Loss: 3.60 | Accuracy: 0.96
+[Training] Itteration/Batch: 125/354: Loss: 1.82 | Accuracy: 0.98
+[Training] Itteration/Batch: 150/354: Loss: 1.60 | Accuracy: 0.98
+[Training] Itteration/Batch: 175/354: Loss: 1.23 | Accuracy: 1.00
+[Training] Itteration/Batch: 200/354: Loss: 1.30 | Accuracy: 1.00
+[Training] Itteration/Batch: 225/354: Loss: 1.15 | Accuracy: 1.00
+[Training] Itteration/Batch: 250/354: Loss: 1.37 | Accuracy: 1.00
+[Training] Itteration/Batch: 275/354: Loss: 2.28 | Accuracy: 0.98
+[Training] Itteration/Batch: 300/354: Loss: 2.09 | Accuracy: 0.98
+[Training] Itteration/Batch: 325/354: Loss: 1.21 | Accuracy: 1.00
+[Training] Itteration/Batch: 350/354: Loss: 1.07 | Accuracy: 1.00
+
+Epoch 7: Val Bin. F1 Majority 0.0 | Val Macro F1 Majority 0.4970382337102854 |             Val Bin F1 Individual 0.0 | Val Macro F1 Individual 0.4960481746330448 |             Val Accuracy Majority 0.9882227182388306 | Val Accuracy Individual 0.9843166470527649 | Training Loss:2.035757064819336 |             Val Loss 2.1995770931243896 | Train Runtime Millis 33480.140272993594 | Val Runtime Millis 7117.859813035466
+
+______________________________	 Running Epoch 8 of 10 	______________________________
+[Training] Itteration/Batch:   0/354: Loss: 1.12 | Accuracy: 1.00
+[Training] Itteration/Batch:  25/354: Loss: 1.98 | Accuracy: 0.99
+[Training] Itteration/Batch:  50/354: Loss: 1.78 | Accuracy: 0.98
+[Training] Itteration/Batch:  75/354: Loss: 1.22 | Accuracy: 1.00
+[Training] Itteration/Batch: 100/354: Loss: 1.48 | Accuracy: 0.98
+[Training] Itteration/Batch: 125/354: Loss: 1.07 | Accuracy: 1.00
+[Training] Itteration/Batch: 150/354: Loss: 1.11 | Accuracy: 1.00
+[Training] Itteration/Batch: 175/354: Loss: 1.46 | Accuracy: 0.98
+[Training] Itteration/Batch: 200/354: Loss: 1.15 | Accuracy: 1.00
+[Training] Itteration/Batch: 225/354: Loss: 1.14 | Accuracy: 1.00
+[Training] Itteration/Batch: 250/354: Loss: 2.70 | Accuracy: 0.97
+[Training] Itteration/Batch: 275/354: Loss: 2.20 | Accuracy: 0.98
+[Training] Itteration/Batch: 300/354: Loss: 1.25 | Accuracy: 1.00
+[Training] Itteration/Batch: 325/354: Loss: 1.14 | Accuracy: 1.00
+[Training] Itteration/Batch: 350/354: Loss: 2.08 | Accuracy: 0.98
+
+Epoch 8: Val Bin. F1 Majority 0.0 | Val Macro F1 Majority 0.4970382337102854 |             Val Bin F1 Individual 0.0 | Val Macro F1 Individual 0.4960481746330448 |             Val Accuracy Majority 0.9882227182388306 | Val Accuracy Individual 0.9843166470527649 | Training Loss:2.003048896789551 |             Val Loss 2.181159496307373 | Train Runtime Millis 33249.034918961115 | Val Runtime Millis 7085.265889996663
+
+______________________________	 Running Epoch 9 of 10 	______________________________
+[Training] Itteration/Batch:   0/354: Loss: 1.12 | Accuracy: 1.00
+[Training] Itteration/Batch:  25/354: Loss: 5.42 | Accuracy: 0.95
+[Training] Itteration/Batch:  50/354: Loss: 2.31 | Accuracy: 0.97
+[Training] Itteration/Batch:  75/354: Loss: 2.68 | Accuracy: 0.96
+[Training] Itteration/Batch: 100/354: Loss: 1.08 | Accuracy: 1.00
+[Training] Itteration/Batch: 125/354: Loss: 3.24 | Accuracy: 0.95
+[Training] Itteration/Batch: 150/354: Loss: 6.74 | Accuracy: 0.95
+[Training] Itteration/Batch: 175/354: Loss: 1.23 | Accuracy: 1.00
+[Training] Itteration/Batch: 200/354: Loss: 1.08 | Accuracy: 1.00
+[Training] Itteration/Batch: 225/354: Loss: 1.17 | Accuracy: 1.00
+[Training] Itteration/Batch: 250/354: Loss: 1.17 | Accuracy: 1.00
+[Training] Itteration/Batch: 275/354: Loss: 3.48 | Accuracy: 0.96
+[Training] Itteration/Batch: 300/354: Loss: 1.09 | Accuracy: 1.00
+[Training] Itteration/Batch: 325/354: Loss: 1.35 | Accuracy: 0.98
+[Training] Itteration/Batch: 350/354: Loss: 1.11 | Accuracy: 1.00
+
+Epoch 9: Val Bin. F1 Majority 0.0 | Val Macro F1 Majority 0.4970382337102854 |             Val Bin F1 Individual 0.0 | Val Macro F1 Individual 0.4960481746330448 |             Val Accuracy Majority 0.9882227182388306 | Val Accuracy Individual 0.9843166470527649 | Training Loss:1.9705463647842407 |             Val Loss 2.1686813831329346 | Train Runtime Millis 33412.00486407615 | Val Runtime Millis 7136.775856022723
+
+______________________________	 Running Epoch 10 of 10 	______________________________
+[Training] Itteration/Batch:   0/354: Loss: 1.11 | Accuracy: 1.00
+[Training] Itteration/Batch:  25/354: Loss: 1.10 | Accuracy: 1.00
+[Training] Itteration/Batch:  50/354: Loss: 1.06 | Accuracy: 1.00
+[Training] Itteration/Batch:  75/354: Loss: 2.09 | Accuracy: 0.98
+[Training] Itteration/Batch: 100/354: Loss: 1.05 | Accuracy: 1.00
+[Training] Itteration/Batch: 125/354: Loss: 1.22 | Accuracy: 1.00
+[Training] Itteration/Batch: 150/354: Loss: 1.44 | Accuracy: 0.98
+[Training] Itteration/Batch: 175/354: Loss: 3.31 | Accuracy: 0.94
+[Training] Itteration/Batch: 200/354: Loss: 2.21 | Accuracy: 0.98
+[Training] Itteration/Batch: 225/354: Loss: 1.18 | Accuracy: 1.00
+[Training] Itteration/Batch: 250/354: Loss: 1.84 | Accuracy: 0.94
+[Training] Itteration/Batch: 275/354: Loss: 1.13 | Accuracy: 1.00
+[Training] Itteration/Batch: 300/354: Loss: 1.04 | Accuracy: 1.00
+[Training] Itteration/Batch: 325/354: Loss: 1.62 | Accuracy: 0.98
+[Training] Itteration/Batch: 350/354: Loss: 1.11 | Accuracy: 1.00
+
+Epoch 10: Val Bin. F1 Majority 0.0 | Val Macro F1 Majority 0.4970382337102854 |             Val Bin F1 Individual 0.0 | Val Macro F1 Individual 0.4960481746330448 |             Val Accuracy Majority 0.9882227182388306 | Val Accuracy Individual 0.9843166470527649 | Training Loss:1.9525563716888428 |             Val Loss 2.158782720565796 | Train Runtime Millis 33248.88006399851 | Val Runtime Millis 7126.0526470141485
+
+______________________________	 Running Epoch 1 of 10 	______________________________
+[Training] Itteration/Batch:   0/363: Loss: 2.15 | Accuracy: 0.58
+[Training] Itteration/Batch:  25/363: Loss: 2.19 | Accuracy: 0.75
+[Training] Itteration/Batch:  50/363: Loss: 1.78 | Accuracy: 0.73
+[Training] Itteration/Batch:  75/363: Loss: 3.10 | Accuracy: 0.65
+[Training] Itteration/Batch: 100/363: Loss: 1.87 | Accuracy: 0.74
+[Training] Itteration/Batch: 125/363: Loss: 3.34 | Accuracy: 0.83
+[Training] Itteration/Batch: 150/363: Loss: 1.92 | Accuracy: 0.76
+[Training] Itteration/Batch: 175/363: Loss: 1.93 | Accuracy: 0.82
+[Training] Itteration/Batch: 200/363: Loss: 2.68 | Accuracy: 0.90
+[Training] Itteration/Batch: 225/363: Loss: 2.89 | Accuracy: 0.82
+[Training] Itteration/Batch: 250/363: Loss: 2.69 | Accuracy: 0.86
+[Training] Itteration/Batch: 275/363: Loss: 2.97 | Accuracy: 0.91
+[Training] Itteration/Batch: 300/363: Loss: 3.57 | Accuracy: 0.88
+[Training] Itteration/Batch: 325/363: Loss: 1.78 | Accuracy: 1.00
+[Training] Itteration/Batch: 350/363: Loss: 1.98 | Accuracy: 0.97
+
+Epoch 1: Val Bin. F1 Majority 0.0 | Val Macro F1 Majority 0.49709762532981533 |             Val Bin F1 Individual 0.0 | Val Macro F1 Individual 0.4854347176576038 |             Val Accuracy Majority 0.9884575009346008 | Val Accuracy Individual 0.9433879852294922 | Training Loss:2.44574236869812 |             Val Loss 2.4563114643096924 | Train Runtime Millis 34622.643623966724 | Val Runtime Millis 7500.622342922725
+
+______________________________	 Running Epoch 2 of 10 	______________________________
+[Training] Itteration/Batch:   0/363: Loss: 2.66 | Accuracy: 0.95
+[Training] Itteration/Batch:  25/363: Loss: 1.68 | Accuracy: 0.95
+[Training] Itteration/Batch:  50/363: Loss: 3.53 | Accuracy: 0.93
+[Training] Itteration/Batch:  75/363: Loss: 3.70 | Accuracy: 0.93
+[Training] Itteration/Batch: 100/363: Loss: 4.72 | Accuracy: 0.95
+[Training] Itteration/Batch: 125/363: Loss: 2.82 | Accuracy: 0.93
+[Training] Itteration/Batch: 150/363: Loss: 1.48 | Accuracy: 1.00
+[Training] Itteration/Batch: 175/363: Loss: 3.49 | Accuracy: 0.92
+[Training] Itteration/Batch: 200/363: Loss: 1.52 | Accuracy: 0.98
+[Training] Itteration/Batch: 225/363: Loss: 4.06 | Accuracy: 0.93
+[Training] Itteration/Batch: 250/363: Loss: 2.82 | Accuracy: 0.98
+[Training] Itteration/Batch: 275/363: Loss: 3.32 | Accuracy: 0.97
+[Training] Itteration/Batch: 300/363: Loss: 1.46 | Accuracy: 0.98
+[Training] Itteration/Batch: 325/363: Loss: 3.04 | Accuracy: 0.95
+[Training] Itteration/Batch: 350/363: Loss: 3.33 | Accuracy: 0.95
+
+Epoch 2: Val Bin. F1 Majority 0.0 | Val Macro F1 Majority 0.49709762532981533 |             Val Bin F1 Individual 0.0 | Val Macro F1 Individual 0.49401395519647445 |             Val Accuracy Majority 0.9884575009346008 | Val Accuracy Individual 0.9763391017913818 | Training Loss:2.3423595428466797 |             Val Loss 2.3739678859710693 | Train Runtime Millis 34842.053210013546 | Val Runtime Millis 7485.3335480438545
+
+______________________________	 Running Epoch 3 of 10 	______________________________
+[Training] Itteration/Batch:   0/363: Loss: 1.69 | Accuracy: 0.98
+[Training] Itteration/Batch:  25/363: Loss: 2.51 | Accuracy: 0.96
+[Training] Itteration/Batch:  50/363: Loss: 4.02 | Accuracy: 0.92
+[Training] Itteration/Batch:  75/363: Loss: 1.53 | Accuracy: 1.00
+[Training] Itteration/Batch: 100/363: Loss: 1.64 | Accuracy: 1.00
+[Training] Itteration/Batch: 125/363: Loss: 2.85 | Accuracy: 0.97
+[Training] Itteration/Batch: 150/363: Loss: 1.64 | Accuracy: 1.00
+[Training] Itteration/Batch: 175/363: Loss: 2.27 | Accuracy: 0.96
+[Training] Itteration/Batch: 200/363: Loss: 1.46 | Accuracy: 0.98
+[Training] Itteration/Batch: 225/363: Loss: 1.71 | Accuracy: 0.98
+[Training] Itteration/Batch: 250/363: Loss: 1.63 | Accuracy: 1.00
+[Training] Itteration/Batch: 275/363: Loss: 2.66 | Accuracy: 0.98
+[Training] Itteration/Batch: 300/363: Loss: 1.50 | Accuracy: 1.00
+[Training] Itteration/Batch: 325/363: Loss: 5.15 | Accuracy: 0.95
+[Training] Itteration/Batch: 350/363: Loss: 1.39 | Accuracy: 1.00
+
+Epoch 3: Val Bin. F1 Majority 0.0 | Val Macro F1 Majority 0.49709762532981533 |             Val Bin F1 Individual 0.0 | Val Macro F1 Individual 0.49497837401950007 |             Val Accuracy Majority 0.9884575009346008 | Val Accuracy Individual 0.9801132082939148 | Training Loss:2.2523066997528076 |             Val Loss 2.3030543327331543 | Train Runtime Millis 35125.932688009925 | Val Runtime Millis 7507.608682033606
+
+______________________________	 Running Epoch 4 of 10 	______________________________
+[Training] Itteration/Batch:   0/363: Loss: 4.70 | Accuracy: 0.95
+[Training] Itteration/Batch:  25/363: Loss: 1.62 | Accuracy: 0.98
+[Training] Itteration/Batch:  50/363: Loss: 1.43 | Accuracy: 1.00
+[Training] Itteration/Batch:  75/363: Loss: 2.54 | Accuracy: 0.98
+[Training] Itteration/Batch: 100/363: Loss: 2.04 | Accuracy: 0.97
+[Training] Itteration/Batch: 125/363: Loss: 1.44 | Accuracy: 0.98
+[Training] Itteration/Batch: 150/363: Loss: 1.90 | Accuracy: 0.98
+[Training] Itteration/Batch: 175/363: Loss: 1.53 | Accuracy: 1.00
+[Training] Itteration/Batch: 200/363: Loss: 3.07 | Accuracy: 0.95
+[Training] Itteration/Batch: 225/363: Loss: 5.42 | Accuracy: 0.93
+[Training] Itteration/Batch: 250/363: Loss: 1.36 | Accuracy: 1.00
+[Training] Itteration/Batch: 275/363: Loss: 1.45 | Accuracy: 0.98
+[Training] Itteration/Batch: 300/363: Loss: 1.40 | Accuracy: 0.98
+[Training] Itteration/Batch: 325/363: Loss: 3.12 | Accuracy: 0.98
+[Training] Itteration/Batch: 350/363: Loss: 3.20 | Accuracy: 0.97
+
+Epoch 4: Val Bin. F1 Majority 0.0 | Val Macro F1 Majority 0.49709762532981533 |             Val Bin F1 Individual 0.0 | Val Macro F1 Individual 0.495163417851385 |             Val Accuracy Majority 0.9884575009346008 | Val Accuracy Individual 0.9808390140533447 | Training Loss:2.169135093688965 |             Val Loss 2.288703203201294 | Train Runtime Millis 34776.66069904808 | Val Runtime Millis 7429.519711993635
+
+______________________________	 Running Epoch 5 of 10 	______________________________
+[Training] Itteration/Batch:   0/363: Loss: 5.75 | Accuracy: 0.92
+[Training] Itteration/Batch:  25/363: Loss: 1.31 | Accuracy: 1.00
+[Training] Itteration/Batch:  50/363: Loss: 4.33 | Accuracy: 0.95
+[Training] Itteration/Batch:  75/363: Loss: 1.28 | Accuracy: 1.00
+[Training] Itteration/Batch: 100/363: Loss: 2.68 | Accuracy: 0.97
+[Training] Itteration/Batch: 125/363: Loss: 1.42 | Accuracy: 1.00
+[Training] Itteration/Batch: 150/363: Loss: 1.37 | Accuracy: 0.98
+[Training] Itteration/Batch: 175/363: Loss: 7.82 | Accuracy: 0.92
+[Training] Itteration/Batch: 200/363: Loss: 2.25 | Accuracy: 0.98
+[Training] Itteration/Batch: 225/363: Loss: 2.37 | Accuracy: 0.98
+[Training] Itteration/Batch: 250/363: Loss: 1.47 | Accuracy: 1.00
+[Training] Itteration/Batch: 275/363: Loss: 3.27 | Accuracy: 0.98
+[Training] Itteration/Batch: 300/363: Loss: 1.27 | Accuracy: 1.00
+[Training] Itteration/Batch: 325/363: Loss: 1.22 | Accuracy: 1.00
+[Training] Itteration/Batch: 350/363: Loss: 2.46 | Accuracy: 0.98
+
+Epoch 5: Val Bin. F1 Majority 0.0 | Val Macro F1 Majority 0.49709762532981533 |             Val Bin F1 Individual 0.0 | Val Macro F1 Individual 0.49520041034659623 |             Val Accuracy Majority 0.9884575009346008 | Val Accuracy Individual 0.9809841513633728 | Training Loss:2.1017298698425293 |             Val Loss 2.1958892345428467 | Train Runtime Millis 34806.87987199053 | Val Runtime Millis 7443.19322204683
+
+______________________________	 Running Epoch 6 of 10 	______________________________
+[Training] Itteration/Batch:   0/363: Loss: 1.31 | Accuracy: 1.00
+[Training] Itteration/Batch:  25/363: Loss: 2.52 | Accuracy: 0.98
+[Training] Itteration/Batch:  50/363: Loss: 1.52 | Accuracy: 1.00
+[Training] Itteration/Batch:  75/363: Loss: 3.25 | Accuracy: 0.97
+[Training] Itteration/Batch: 100/363: Loss: 1.31 | Accuracy: 1.00
+[Training] Itteration/Batch: 125/363: Loss: 1.26 | Accuracy: 0.98
+[Training] Itteration/Batch: 150/363: Loss: 2.81 | Accuracy: 0.95
+[Training] Itteration/Batch: 175/363: Loss: 1.24 | Accuracy: 1.00
+[Training] Itteration/Batch: 200/363: Loss: 1.18 | Accuracy: 1.00
+[Training] Itteration/Batch: 225/363: Loss: 2.07 | Accuracy: 0.96
+[Training] Itteration/Batch: 250/363: Loss: 1.25 | Accuracy: 1.00
+[Training] Itteration/Batch: 275/363: Loss: 1.30 | Accuracy: 1.00
+[Training] Itteration/Batch: 300/363: Loss: 2.89 | Accuracy: 0.96
+[Training] Itteration/Batch: 325/363: Loss: 1.21 | Accuracy: 1.00
+[Training] Itteration/Batch: 350/363: Loss: 1.66 | Accuracy: 0.97
+
+Epoch 6: Val Bin. F1 Majority 0.0 | Val Macro F1 Majority 0.49709762532981533 |             Val Bin F1 Individual 0.0 | Val Macro F1 Individual 0.49520041034659623 |             Val Accuracy Majority 0.9884575009346008 | Val Accuracy Individual 0.9809841513633728 | Training Loss:2.0454819202423096 |             Val Loss 2.162051200866699 | Train Runtime Millis 34684.180701035075 | Val Runtime Millis 7430.265058064833
+
+______________________________	 Running Epoch 7 of 10 	______________________________
+[Training] Itteration/Batch:   0/363: Loss: 3.29 | Accuracy: 0.96
+[Training] Itteration/Batch:  25/363: Loss: 1.13 | Accuracy: 1.00
+[Training] Itteration/Batch:  50/363: Loss: 1.24 | Accuracy: 0.98
+[Training] Itteration/Batch:  75/363: Loss: 4.87 | Accuracy: 0.91
+[Training] Itteration/Batch: 100/363: Loss: 1.86 | Accuracy: 0.98
+[Training] Itteration/Batch: 125/363: Loss: 1.94 | Accuracy: 0.98
+[Training] Itteration/Batch: 150/363: Loss: 1.45 | Accuracy: 1.00
+[Training] Itteration/Batch: 175/363: Loss: 1.20 | Accuracy: 1.00
+[Training] Itteration/Batch: 200/363: Loss: 1.57 | Accuracy: 0.98
+[Training] Itteration/Batch: 225/363: Loss: 2.80 | Accuracy: 0.97
+[Training] Itteration/Batch: 250/363: Loss: 2.15 | Accuracy: 0.98
+[Training] Itteration/Batch: 275/363: Loss: 1.18 | Accuracy: 1.00
+[Training] Itteration/Batch: 300/363: Loss: 1.34 | Accuracy: 1.00
+[Training] Itteration/Batch: 325/363: Loss: 1.26 | Accuracy: 1.00
+[Training] Itteration/Batch: 350/363: Loss: 1.09 | Accuracy: 1.00
+
+Epoch 7: Val Bin. F1 Majority 0.0 | Val Macro F1 Majority 0.49709762532981533 |             Val Bin F1 Individual 0.0 | Val Macro F1 Individual 0.49520041034659623 |             Val Accuracy Majority 0.9884575009346008 | Val Accuracy Individual 0.9809841513633728 | Training Loss:2.002697706222534 |             Val Loss 2.1347508430480957 | Train Runtime Millis 34820.038941921666 | Val Runtime Millis 7505.411959020421
+
+______________________________	 Running Epoch 8 of 10 	______________________________
+[Training] Itteration/Batch:   0/363: Loss: 2.42 | Accuracy: 0.97
+[Training] Itteration/Batch:  25/363: Loss: 2.28 | Accuracy: 0.93
+[Training] Itteration/Batch:  50/363: Loss: 1.32 | Accuracy: 1.00
+[Training] Itteration/Batch:  75/363: Loss: 3.17 | Accuracy: 0.96
+[Training] Itteration/Batch: 100/363: Loss: 1.49 | Accuracy: 1.00
+[Training] Itteration/Batch: 125/363: Loss: 5.40 | Accuracy: 0.95
+[Training] Itteration/Batch: 150/363: Loss: 1.04 | Accuracy: 1.00
+[Training] Itteration/Batch: 175/363: Loss: 1.72 | Accuracy: 0.98
+[Training] Itteration/Batch: 200/363: Loss: 2.85 | Accuracy: 0.97
+[Training] Itteration/Batch: 225/363: Loss: 2.21 | Accuracy: 0.98
+[Training] Itteration/Batch: 250/363: Loss: 2.56 | Accuracy: 0.97
+[Training] Itteration/Batch: 275/363: Loss: 1.03 | Accuracy: 1.00
+[Training] Itteration/Batch: 300/363: Loss: 2.26 | Accuracy: 0.98
+[Training] Itteration/Batch: 325/363: Loss: 1.20 | Accuracy: 1.00
+[Training] Itteration/Batch: 350/363: Loss: 1.32 | Accuracy: 0.98
+
+Epoch 8: Val Bin. F1 Majority 0.0 | Val Macro F1 Majority 0.49709762532981533 |             Val Bin F1 Individual 0.0 | Val Macro F1 Individual 0.495754647928561 |             Val Accuracy Majority 0.9884575009346008 | Val Accuracy Individual 0.9831615686416626 | Training Loss:1.958443284034729 |             Val Loss 2.1123321056365967 | Train Runtime Millis 35170.73055601213 | Val Runtime Millis 7528.813251992688
+
+______________________________	 Running Epoch 9 of 10 	______________________________
+[Training] Itteration/Batch:   0/363: Loss: 1.75 | Accuracy: 0.97
+[Training] Itteration/Batch:  25/363: Loss: 6.25 | Accuracy: 0.91
+[Training] Itteration/Batch:  50/363: Loss: 1.06 | Accuracy: 1.00
+[Training] Itteration/Batch:  75/363: Loss: 2.32 | Accuracy: 0.98
+[Training] Itteration/Batch: 100/363: Loss: 1.26 | Accuracy: 1.00
+[Training] Itteration/Batch: 125/363: Loss: 1.13 | Accuracy: 1.00
+[Training] Itteration/Batch: 150/363: Loss: 2.63 | Accuracy: 0.98
+[Training] Itteration/Batch: 175/363: Loss: 1.07 | Accuracy: 1.00
+[Training] Itteration/Batch: 200/363: Loss: 1.19 | Accuracy: 1.00
+[Training] Itteration/Batch: 225/363: Loss: 1.20 | Accuracy: 1.00
+[Training] Itteration/Batch: 250/363: Loss: 4.06 | Accuracy: 0.94
+[Training] Itteration/Batch: 275/363: Loss: 2.24 | Accuracy: 0.98
+[Training] Itteration/Batch: 300/363: Loss: 1.12 | Accuracy: 1.00
+[Training] Itteration/Batch: 325/363: Loss: 1.66 | Accuracy: 0.98
+[Training] Itteration/Batch: 350/363: Loss: 1.10 | Accuracy: 1.00
+
+Epoch 9: Val Bin. F1 Majority 0.0 | Val Macro F1 Majority 0.49709762532981533 |             Val Bin F1 Individual 0.0 | Val Macro F1 Individual 0.495754647928561 |             Val Accuracy Majority 0.9884575009346008 | Val Accuracy Individual 0.9831615686416626 | Training Loss:1.9351516962051392 |             Val Loss 2.094597578048706 | Train Runtime Millis 35285.323917050846 | Val Runtime Millis 7475.993647938594
+
+______________________________	 Running Epoch 10 of 10 	______________________________
+[Training] Itteration/Batch:   0/363: Loss: 1.15 | Accuracy: 1.00
+[Training] Itteration/Batch:  25/363: Loss: 1.03 | Accuracy: 1.00
+[Training] Itteration/Batch:  50/363: Loss: 2.76 | Accuracy: 0.97
+[Training] Itteration/Batch:  75/363: Loss: 1.47 | Accuracy: 0.98
+[Training] Itteration/Batch: 100/363: Loss: 1.84 | Accuracy: 0.98
+[Training] Itteration/Batch: 125/363: Loss: 1.06 | Accuracy: 1.00
+[Training] Itteration/Batch: 150/363: Loss: 1.41 | Accuracy: 0.98
+[Training] Itteration/Batch: 175/363: Loss: 1.08 | Accuracy: 1.00
+[Training] Itteration/Batch: 200/363: Loss: 1.03 | Accuracy: 1.00
+[Training] Itteration/Batch: 225/363: Loss: 3.61 | Accuracy: 0.95
+[Training] Itteration/Batch: 250/363: Loss: 1.91 | Accuracy: 0.96
+[Training] Itteration/Batch: 275/363: Loss: 2.21 | Accuracy: 0.96
+[Training] Itteration/Batch: 300/363: Loss: 2.10 | Accuracy: 0.98
+[Training] Itteration/Batch: 325/363: Loss: 1.18 | Accuracy: 1.00
+[Training] Itteration/Batch: 350/363: Loss: 1.05 | Accuracy: 1.00
+
+Epoch 10: Val Bin. F1 Majority 0.0 | Val Macro F1 Majority 0.49709762532981533 |             Val Bin F1 Individual 0.0 | Val Macro F1 Individual 0.495754647928561 |             Val Accuracy Majority 0.9884575009346008 | Val Accuracy Individual 0.9831615686416626 | Training Loss:1.9054205417633057 |             Val Loss 2.083124876022339 | Train Runtime Millis 35143.07962998282 | Val Runtime Millis 7499.8775030253455
+
+______________________________	 Running Epoch 1 of 10 	______________________________
+[Training] Itteration/Batch:   0/371: Loss: 1.90 | Accuracy: 0.60
+[Training] Itteration/Batch:  25/371: Loss: 1.82 | Accuracy: 0.60
+[Training] Itteration/Batch:  50/371: Loss: 1.87 | Accuracy: 0.68
+[Training] Itteration/Batch:  75/371: Loss: 1.69 | Accuracy: 0.73
+[Training] Itteration/Batch: 100/371: Loss: 1.94 | Accuracy: 0.83
+[Training] Itteration/Batch: 125/371: Loss: 1.77 | Accuracy: 0.73
+[Training] Itteration/Batch: 150/371: Loss: 1.90 | Accuracy: 0.81
+[Training] Itteration/Batch: 175/371: Loss: 1.99 | Accuracy: 0.92
+[Training] Itteration/Batch: 200/371: Loss: 2.29 | Accuracy: 0.80
+[Training] Itteration/Batch: 225/371: Loss: 4.14 | Accuracy: 0.90
+[Training] Itteration/Batch: 250/371: Loss: 1.86 | Accuracy: 0.84
+[Training] Itteration/Batch: 275/371: Loss: 3.62 | Accuracy: 0.90
+[Training] Itteration/Batch: 300/371: Loss: 2.45 | Accuracy: 0.92
+[Training] Itteration/Batch: 325/371: Loss: 1.90 | Accuracy: 0.88
+[Training] Itteration/Batch: 350/371: Loss: 2.11 | Accuracy: 0.92
+
+Epoch 1: Val Bin. F1 Majority 0.0 | Val Macro F1 Majority 0.4979476654694715 |             Val Bin F1 Individual 0.014035088010132313 | Val Macro F1 Individual 0.4969696285338964 |             Val Accuracy Majority 0.991824209690094 | Val Accuracy Individual 0.9606111645698547 | Training Loss:2.5322842597961426 |             Val Loss 2.322343111038208 | Train Runtime Millis 36366.008808952756 | Val Runtime Millis 7915.400270954706
+
+______________________________	 Running Epoch 2 of 10 	______________________________
+[Training] Itteration/Batch:   0/371: Loss: 1.77 | Accuracy: 0.95
+[Training] Itteration/Batch:  25/371: Loss: 1.73 | Accuracy: 1.00
+[Training] Itteration/Batch:  50/371: Loss: 4.37 | Accuracy: 0.90
+[Training] Itteration/Batch:  75/371: Loss: 1.64 | Accuracy: 0.98
+[Training] Itteration/Batch: 100/371: Loss: 1.74 | Accuracy: 0.96
+[Training] Itteration/Batch: 125/371: Loss: 2.64 | Accuracy: 0.94
+[Training] Itteration/Batch: 150/371: Loss: 1.78 | Accuracy: 0.97
+[Training] Itteration/Batch: 175/371: Loss: 1.63 | Accuracy: 1.00
+[Training] Itteration/Batch: 200/371: Loss: 1.72 | Accuracy: 0.96
+[Training] Itteration/Batch: 225/371: Loss: 1.59 | Accuracy: 0.98
+[Training] Itteration/Batch: 250/371: Loss: 1.92 | Accuracy: 0.98
+[Training] Itteration/Batch: 275/371: Loss: 1.69 | Accuracy: 0.98
+[Training] Itteration/Batch: 300/371: Loss: 2.82 | Accuracy: 0.98
+[Training] Itteration/Batch: 325/371: Loss: 1.76 | Accuracy: 1.00
+[Training] Itteration/Batch: 350/371: Loss: 1.63 | Accuracy: 1.00
+
+Epoch 2: Val Bin. F1 Majority 0.0 | Val Macro F1 Majority 0.4979476654694715 |             Val Bin F1 Individual 0.0117647061124444 | Val Macro F1 Individual 0.4999240609848706 |             Val Accuracy Majority 0.991824209690094 | Val Accuracy Individual 0.9764508008956909 | Training Loss:2.447725534439087 |             Val Loss 2.2531838417053223 | Train Runtime Millis 36730.2192740608 | Val Runtime Millis 7930.736034992151
+
+______________________________	 Running Epoch 3 of 10 	______________________________
+[Training] Itteration/Batch:   0/371: Loss: 1.55 | Accuracy: 1.00
+[Training] Itteration/Batch:  25/371: Loss: 1.95 | Accuracy: 0.96
+[Training] Itteration/Batch:  50/371: Loss: 3.61 | Accuracy: 0.95
+[Training] Itteration/Batch:  75/371: Loss: 1.83 | Accuracy: 0.98
+[Training] Itteration/Batch: 100/371: Loss: 1.74 | Accuracy: 1.00
+[Training] Itteration/Batch: 125/371: Loss: 2.65 | Accuracy: 0.97
+[Training] Itteration/Batch: 150/371: Loss: 1.66 | Accuracy: 1.00
+[Training] Itteration/Batch: 175/371: Loss: 2.06 | Accuracy: 0.98
+[Training] Itteration/Batch: 200/371: Loss: 1.54 | Accuracy: 1.00
+[Training] Itteration/Batch: 225/371: Loss: 4.88 | Accuracy: 0.97
+[Training] Itteration/Batch: 250/371: Loss: 1.59 | Accuracy: 1.00
+[Training] Itteration/Batch: 275/371: Loss: 1.58 | Accuracy: 1.00
+[Training] Itteration/Batch: 300/371: Loss: 3.36 | Accuracy: 0.98
+[Training] Itteration/Batch: 325/371: Loss: 1.97 | Accuracy: 0.98
+[Training] Itteration/Batch: 350/371: Loss: 1.63 | Accuracy: 0.98
+
+Epoch 3: Val Bin. F1 Majority 0.0 | Val Macro F1 Majority 0.4979476654694715 |             Val Bin F1 Individual 0.01315789483487606 | Val Macro F1 Individual 0.5012658275044368 |             Val Accuracy Majority 0.991824209690094 | Val Accuracy Individual 0.978973925113678 | Training Loss:2.3563287258148193 |             Val Loss 2.13912034034729 | Train Runtime Millis 36844.8078649817 | Val Runtime Millis 7976.108124945313
+
+______________________________	 Running Epoch 4 of 10 	______________________________
+[Training] Itteration/Batch:   0/371: Loss: 1.53 | Accuracy: 1.00
+[Training] Itteration/Batch:  25/371: Loss: 2.36 | Accuracy: 0.98
+[Training] Itteration/Batch:  50/371: Loss: 1.38 | Accuracy: 0.98
+[Training] Itteration/Batch:  75/371: Loss: 2.50 | Accuracy: 0.95
+[Training] Itteration/Batch: 100/371: Loss: 3.99 | Accuracy: 0.93
+[Training] Itteration/Batch: 125/371: Loss: 12.85 | Accuracy: 0.93
+[Training] Itteration/Batch: 150/371: Loss: 2.10 | Accuracy: 0.96
+[Training] Itteration/Batch: 175/371: Loss: 1.36 | Accuracy: 1.00
+[Training] Itteration/Batch: 200/371: Loss: 2.12 | Accuracy: 0.98
+[Training] Itteration/Batch: 225/371: Loss: 1.96 | Accuracy: 0.96
+[Training] Itteration/Batch: 250/371: Loss: 1.46 | Accuracy: 1.00
+[Training] Itteration/Batch: 275/371: Loss: 1.62 | Accuracy: 1.00
+[Training] Itteration/Batch: 300/371: Loss: 2.58 | Accuracy: 0.97
+[Training] Itteration/Batch: 325/371: Loss: 1.40 | Accuracy: 1.00
+[Training] Itteration/Batch: 350/371: Loss: 1.59 | Accuracy: 1.00
+
+Epoch 4: Val Bin. F1 Majority 0.0 | Val Macro F1 Majority 0.4979476654694715 |             Val Bin F1 Individual 0.01315789483487606 | Val Macro F1 Individual 0.5012658275044368 |             Val Accuracy Majority 0.991824209690094 | Val Accuracy Individual 0.978973925113678 | Training Loss:2.279698610305786 |             Val Loss 2.0731794834136963 | Train Runtime Millis 37049.86748599913 | Val Runtime Millis 7952.499426086433
+
+______________________________	 Running Epoch 5 of 10 	______________________________
+[Training] Itteration/Batch:   0/371: Loss: 1.40 | Accuracy: 1.00
+[Training] Itteration/Batch:  25/371: Loss: 1.55 | Accuracy: 0.98
+[Training] Itteration/Batch:  50/371: Loss: 1.69 | Accuracy: 0.98
+[Training] Itteration/Batch:  75/371: Loss: 2.20 | Accuracy: 0.97
+[Training] Itteration/Batch: 100/371: Loss: 1.60 | Accuracy: 0.98
+[Training] Itteration/Batch: 125/371: Loss: 2.38 | Accuracy: 0.98
+[Training] Itteration/Batch: 150/371: Loss: 1.50 | Accuracy: 1.00
+[Training] Itteration/Batch: 175/371: Loss: 1.42 | Accuracy: 1.00
+[Training] Itteration/Batch: 200/371: Loss: 1.36 | Accuracy: 1.00
+[Training] Itteration/Batch: 225/371: Loss: 1.30 | Accuracy: 1.00
+[Training] Itteration/Batch: 250/371: Loss: 2.45 | Accuracy: 0.97
+[Training] Itteration/Batch: 275/371: Loss: 3.06 | Accuracy: 0.95
+[Training] Itteration/Batch: 300/371: Loss: 1.37 | Accuracy: 0.98
+[Training] Itteration/Batch: 325/371: Loss: 2.89 | Accuracy: 0.97
+[Training] Itteration/Batch: 350/371: Loss: 1.37 | Accuracy: 0.98
+
+Epoch 5: Val Bin. F1 Majority 0.0 | Val Macro F1 Majority 0.4979476654694715 |             Val Bin F1 Individual 0.01342281885445118 | Val Macro F1 Individual 0.5015056582804551 |             Val Accuracy Majority 0.991824209690094 | Val Accuracy Individual 0.9793944358825684 | Training Loss:2.2208077907562256 |             Val Loss 2.016066789627075 | Train Runtime Millis 36893.621125957 | Val Runtime Millis 7965.47238889616
+
+______________________________	 Running Epoch 6 of 10 	______________________________
+[Training] Itteration/Batch:   0/371: Loss: 1.35 | Accuracy: 1.00
+[Training] Itteration/Batch:  25/371: Loss: 1.33 | Accuracy: 1.00
+[Training] Itteration/Batch:  50/371: Loss: 1.30 | Accuracy: 1.00
+[Training] Itteration/Batch:  75/371: Loss: 1.44 | Accuracy: 1.00
+[Training] Itteration/Batch: 100/371: Loss: 1.11 | Accuracy: 1.00
+[Training] Itteration/Batch: 125/371: Loss: 1.60 | Accuracy: 0.98
+[Training] Itteration/Batch: 150/371: Loss: 1.42 | Accuracy: 1.00
+[Training] Itteration/Batch: 175/371: Loss: 2.41 | Accuracy: 0.98
+[Training] Itteration/Batch: 200/371: Loss: 6.79 | Accuracy: 0.95
+[Training] Itteration/Batch: 225/371: Loss: 1.32 | Accuracy: 1.00
+[Training] Itteration/Batch: 250/371: Loss: 2.33 | Accuracy: 0.98
+[Training] Itteration/Batch: 275/371: Loss: 5.28 | Accuracy: 0.92
+[Training] Itteration/Batch: 300/371: Loss: 1.49 | Accuracy: 1.00
+[Training] Itteration/Batch: 325/371: Loss: 1.40 | Accuracy: 1.00
+[Training] Itteration/Batch: 350/371: Loss: 1.22 | Accuracy: 1.00
+
+Epoch 6: Val Bin. F1 Majority 0.0 | Val Macro F1 Majority 0.4979476654694715 |             Val Bin F1 Individual 0.013513513840734959 | Val Macro F1 Individual 0.5015867850853687 |             Val Accuracy Majority 0.991824209690094 | Val Accuracy Individual 0.9795346260070801 | Training Loss:2.170755386352539 |             Val Loss 1.9693373441696167 | Train Runtime Millis 36920.42767291423 | Val Runtime Millis 7939.187234034762
+
+______________________________	 Running Epoch 7 of 10 	______________________________
+[Training] Itteration/Batch:   0/371: Loss: 1.32 | Accuracy: 1.00
+[Training] Itteration/Batch:  25/371: Loss: 4.32 | Accuracy: 0.93
+[Training] Itteration/Batch:  50/371: Loss: 1.43 | Accuracy: 1.00
+[Training] Itteration/Batch:  75/371: Loss: 1.23 | Accuracy: 1.00
+[Training] Itteration/Batch: 100/371: Loss: 3.61 | Accuracy: 0.93
+[Training] Itteration/Batch: 125/371: Loss: 2.65 | Accuracy: 0.98
+[Training] Itteration/Batch: 150/371: Loss: 1.43 | Accuracy: 0.98
+[Training] Itteration/Batch: 175/371: Loss: 1.41 | Accuracy: 0.98
+[Training] Itteration/Batch: 200/371: Loss: 2.11 | Accuracy: 0.98
+[Training] Itteration/Batch: 225/371: Loss: 3.15 | Accuracy: 0.96
+[Training] Itteration/Batch: 250/371: Loss: 1.77 | Accuracy: 0.96
+[Training] Itteration/Batch: 275/371: Loss: 1.18 | Accuracy: 1.00
+[Training] Itteration/Batch: 300/371: Loss: 2.71 | Accuracy: 0.95
+[Training] Itteration/Batch: 325/371: Loss: 1.28 | Accuracy: 1.00
+[Training] Itteration/Batch: 350/371: Loss: 1.19 | Accuracy: 1.00
+
+Epoch 7: Val Bin. F1 Majority 0.0 | Val Macro F1 Majority 0.4979476654694715 |             Val Bin F1 Individual 0.0 | Val Macro F1 Individual 0.4959016393442623 |             Val Accuracy Majority 0.991824209690094 | Val Accuracy Individual 0.9837398529052734 | Training Loss:2.1282708644866943 |             Val Loss 1.9536254405975342 | Train Runtime Millis 36921.512166038156 | Val Runtime Millis 7968.398261000402
+
+______________________________	 Running Epoch 8 of 10 	______________________________
+[Training] Itteration/Batch:   0/371: Loss: 4.93 | Accuracy: 0.94
+[Training] Itteration/Batch:  25/371: Loss: 2.25 | Accuracy: 0.98
+[Training] Itteration/Batch:  50/371: Loss: 1.15 | Accuracy: 1.00
+[Training] Itteration/Batch:  75/371: Loss: 1.23 | Accuracy: 1.00
+[Training] Itteration/Batch: 100/371: Loss: 5.44 | Accuracy: 0.93
+[Training] Itteration/Batch: 125/371: Loss: 3.58 | Accuracy: 0.95
+[Training] Itteration/Batch: 150/371: Loss: 1.39 | Accuracy: 1.00
+[Training] Itteration/Batch: 175/371: Loss: 4.66 | Accuracy: 0.91
+[Training] Itteration/Batch: 200/371: Loss: 1.11 | Accuracy: 1.00
+[Training] Itteration/Batch: 225/371: Loss: 1.29 | Accuracy: 1.00
+[Training] Itteration/Batch: 250/371: Loss: 1.32 | Accuracy: 1.00
+[Training] Itteration/Batch: 275/371: Loss: 2.31 | Accuracy: 0.98
+[Training] Itteration/Batch: 300/371: Loss: 1.21 | Accuracy: 1.00
+[Training] Itteration/Batch: 325/371: Loss: 1.19 | Accuracy: 1.00
+[Training] Itteration/Batch: 350/371: Loss: 4.40 | Accuracy: 0.94
+
+Epoch 8: Val Bin. F1 Majority 0.0 | Val Macro F1 Majority 0.4979476654694715 |             Val Bin F1 Individual 0.0 | Val Macro F1 Individual 0.4960440802486578 |             Val Accuracy Majority 0.991824209690094 | Val Accuracy Individual 0.9843005537986755 | Training Loss:2.083644151687622 |             Val Loss 1.9017456769943237 | Train Runtime Millis 37084.366205963306 | Val Runtime Millis 7951.129455934279
+
+______________________________	 Running Epoch 9 of 10 	______________________________
+[Training] Itteration/Batch:   0/371: Loss: 1.09 | Accuracy: 1.00
+[Training] Itteration/Batch:  25/371: Loss: 1.36 | Accuracy: 1.00
+[Training] Itteration/Batch:  50/371: Loss: 1.32 | Accuracy: 1.00
+[Training] Itteration/Batch:  75/371: Loss: 5.64 | Accuracy: 0.95
+[Training] Itteration/Batch: 100/371: Loss: 1.05 | Accuracy: 1.00
+[Training] Itteration/Batch: 125/371: Loss: 1.99 | Accuracy: 0.98
+[Training] Itteration/Batch: 150/371: Loss: 5.06 | Accuracy: 0.95
+[Training] Itteration/Batch: 175/371: Loss: 1.18 | Accuracy: 1.00
+[Training] Itteration/Batch: 200/371: Loss: 2.36 | Accuracy: 0.96
+[Training] Itteration/Batch: 225/371: Loss: 1.30 | Accuracy: 1.00
+[Training] Itteration/Batch: 250/371: Loss: 2.79 | Accuracy: 0.98
+[Training] Itteration/Batch: 275/371: Loss: 1.12 | Accuracy: 1.00
+[Training] Itteration/Batch: 300/371: Loss: 1.17 | Accuracy: 1.00
+[Training] Itteration/Batch: 325/371: Loss: 2.78 | Accuracy: 0.96
+[Training] Itteration/Batch: 350/371: Loss: 1.51 | Accuracy: 0.98
+
+Epoch 9: Val Bin. F1 Majority 0.0 | Val Macro F1 Majority 0.4979476654694715 |             Val Bin F1 Individual 0.0 | Val Macro F1 Individual 0.49632872070036715 |             Val Accuracy Majority 0.991824209690094 | Val Accuracy Individual 0.985421895980835 | Training Loss:2.04614520072937 |             Val Loss 1.9071673154830933 | Train Runtime Millis 36762.24276004359 | Val Runtime Millis 7932.9704339616
+
+______________________________	 Running Epoch 10 of 10 	______________________________
+[Training] Itteration/Batch:   0/371: Loss: 1.14 | Accuracy: 1.00
+[Training] Itteration/Batch:  25/371: Loss: 1.09 | Accuracy: 1.00
+[Training] Itteration/Batch:  50/371: Loss: 1.15 | Accuracy: 1.00
+[Training] Itteration/Batch:  75/371: Loss: 1.35 | Accuracy: 1.00
+[Training] Itteration/Batch: 100/371: Loss: 3.84 | Accuracy: 0.95
+[Training] Itteration/Batch: 125/371: Loss: 2.27 | Accuracy: 0.98
+[Training] Itteration/Batch: 150/371: Loss: 2.27 | Accuracy: 0.96
+[Training] Itteration/Batch: 175/371: Loss: 3.91 | Accuracy: 0.95
+[Training] Itteration/Batch: 200/371: Loss: 1.27 | Accuracy: 1.00
+[Training] Itteration/Batch: 225/371: Loss: 1.14 | Accuracy: 1.00
+[Training] Itteration/Batch: 250/371: Loss: 1.22 | Accuracy: 1.00
+[Training] Itteration/Batch: 275/371: Loss: 2.71 | Accuracy: 0.94
+[Training] Itteration/Batch: 300/371: Loss: 1.04 | Accuracy: 1.00
+[Training] Itteration/Batch: 325/371: Loss: 1.11 | Accuracy: 1.00
+[Training] Itteration/Batch: 350/371: Loss: 1.24 | Accuracy: 1.00
+
+Epoch 10: Val Bin. F1 Majority 0.0 | Val Macro F1 Majority 0.4979476654694715 |             Val Bin F1 Individual 0.0 | Val Macro F1 Individual 0.49636427815037065 |             Val Accuracy Majority 0.991824209690094 | Val Accuracy Individual 0.9855620861053467 | Training Loss:2.026519775390625 |             Val Loss 1.8741916418075562 | Train Runtime Millis 37021.57821995206 | Val Runtime Millis 8158.169640926644
+

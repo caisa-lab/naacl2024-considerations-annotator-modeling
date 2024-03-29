@@ -1,0 +1,65 @@
+{
+    "Epoch0": {
+        "train_loss_means": 0.4964596927165985,
+        "val_loss_mean": 0.3650994598865509,
+        "val_f1_majority_bin": 0.23529411852359772,
+        "val_f1_majority_macro": 0.6123667988722703,
+        "val_acc_majority": 0.9791666865348816,
+        "val_f1_individual_binary": 0.13178294897079468,
+        "val_f1_individual_macro": 0.5573483759956008,
+        "val_acc_individual": 0.9664871096611023,
+        "train_acc_means": 0.9722810983657837,
+        "train_time_millis": 25426.403779001703,
+        "eval_time_millis": 4276.648172999558
+    },
+    "Epoch1": {
+        "train_loss_means": 0.2641565501689911,
+        "val_loss_mean": 0.3146227300167084,
+        "val_f1_majority_bin": 0.3956044018268585,
+        "val_f1_majority_macro": 0.6902741386727151,
+        "val_acc_majority": 0.9706196784973145,
+        "val_f1_individual_binary": 0.3366834223270416,
+        "val_f1_individual_macro": 0.6581643762373937,
+        "val_acc_individual": 0.9605026841163635,
+        "train_acc_means": 0.9701624512672424,
+        "train_time_millis": 25167.61334599869,
+        "eval_time_millis": 4071.093946000474
+    },
+    "Epoch2": {
+        "train_loss_means": 0.1534062623977661,
+        "val_loss_mean": 0.30878591537475586,
+        "val_f1_majority_bin": 0.4324324429035187,
+        "val_f1_majority_macro": 0.7075456959850024,
+        "val_acc_majority": 0.9663461446762085,
+        "val_f1_individual_binary": 0.3562231659889221,
+        "val_f1_individual_macro": 0.666485483502907,
+        "val_acc_individual": 0.9551166892051697,
+        "train_acc_means": 0.978460431098938,
+        "train_time_millis": 25261.754811002902,
+        "eval_time_millis": 4393.950454999867
+    },
+    "Epoch3": {
+        "train_loss_means": 0.09890411049127579,
+        "val_loss_mean": 0.4114243686199188,
+        "val_f1_majority_bin": 0.46000000834465027,
+        "val_f1_majority_macro": 0.7225905598243689,
+        "val_acc_majority": 0.9711538553237915,
+        "val_f1_individual_binary": 0.3820754587650299,
+        "val_f1_individual_macro": 0.6809172166896005,
+        "val_acc_individual": 0.960801899433136,
+        "train_acc_means": 0.9832273721694946,
+        "train_time_millis": 25477.644271999452,
+        "eval_time_millis": 4285.845542999596
+    },
+    "Test_results": {
+        "test_f1_majority_binary": 0.5691056847572327,
+        "test_f1_majority_macro": 0.7770008364090479,
+        "test_acc_majority": 0.9708150029182434,
+        "test_f1_individual_binary": 0.43820226192474365,
+        "test_f1_individual_macro": 0.7072658703210856,
+        "test_acc_individual": 0.9545729756355286,
+        "test_time_millis": 4078.816409000865,
+        "dataset_size": 9352,
+        "number_of_annotations": 9352
+    }
+}

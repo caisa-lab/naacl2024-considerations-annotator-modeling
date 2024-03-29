@@ -1,0 +1,52 @@
+{
+    "Epoch0": {
+        "train_loss_means": 0.5104900598526001,
+        "val_loss_mean": 0.385981023311615,
+        "val_f1_majority_bin": 0.4318181872367859,
+        "val_f1_majority_macro": 0.707760459879104,
+        "val_acc_majority": 0.9683143496513367,
+        "val_f1_individual_binary": 0.31419938802719116,
+        "val_f1_individual_macro": 0.6457326473093327,
+        "val_acc_individual": 0.9559906721115112,
+        "train_acc_means": 0.9730350971221924,
+        "train_time_millis": 20342.1980719977,
+        "eval_time_millis": 3249.5675230020424
+    },
+    "Epoch1": {
+        "train_loss_means": 0.27091214060783386,
+        "val_loss_mean": 0.3363197147846222,
+        "val_f1_majority_bin": 0.453125,
+        "val_f1_majority_macro": 0.7150037153236459,
+        "val_acc_majority": 0.9556400775909424,
+        "val_f1_individual_binary": 0.37526652216911316,
+        "val_f1_individual_macro": 0.6727556345562586,
+        "val_acc_individual": 0.9431950449943542,
+        "train_acc_means": 0.9678093791007996,
+        "train_time_millis": 19981.81026900056,
+        "eval_time_millis": 3363.665331999073
+    },
+    "Epoch2": {
+        "train_loss_means": 0.12748663127422333,
+        "val_loss_mean": 0.39667725563049316,
+        "val_f1_majority_bin": 0.4480000138282776,
+        "val_f1_majority_macro": 0.712617617947872,
+        "val_acc_majority": 0.9562737345695496,
+        "val_f1_individual_binary": 0.37199124693870544,
+        "val_f1_individual_macro": 0.6714403949073623,
+        "val_acc_individual": 0.9443582892417908,
+        "train_acc_means": 0.97826087474823,
+        "train_time_millis": 20462.01490599924,
+        "eval_time_millis": 3338.007075002679
+    },
+    "Test_results": {
+        "test_f1_majority_binary": 0.4040403962135315,
+        "test_f1_majority_macro": 0.6919827743237066,
+        "test_acc_majority": 0.9611586332321167,
+        "test_f1_individual_binary": 0.3286907970905304,
+        "test_f1_individual_macro": 0.6517130525002037,
+        "test_acc_individual": 0.9513033032417297,
+        "test_time_millis": 3207.5205859982816,
+        "dataset_size": 7871,
+        "number_of_annotations": 7871
+    }
+}
