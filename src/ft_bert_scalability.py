@@ -587,7 +587,7 @@ if __name__ == '__main__':
                             raw_dataset['train']['index'].append(dataset.verdictToId[verdict])
                             raw_dataset_anchor_data['train']['index'].append(dataset.verdictToId[verdict])
                             
-                            if author_encoder == 'user_id' or author_encoder == 'compositeUid':
+                            if author_encoder == 'user_id':
                                 author = dataset.verdictToAuthor[verdict]
                                 author_token = '[' +author +']'
                                 authors_tokens_set.add(author_token)
@@ -611,16 +611,16 @@ if __name__ == '__main__':
                                     raw_dataset_anchor_data['train']['is_anchor_list'].append(author in anchor_names)
                                 #######
                                 
-                            # elif author_encoder == 'compositeUid':
-                            #     author = dataset.verdictToAuthor[verdict]
-                            #     author_token = '[' +author +']'
-                            #     comp_token = '[COMP_' +author +']'
-                            #     authors_tokens_set.add(author_token)
-                            #     raw_dataset['train']['text'].append(author_token + comp_token + ' [SEP] ' + situation_title)
-                            # elif author_encoder == 'composite':
-                            #     author = dataset.verdictToAuthor[verdict]
-                            #     comp_token = '[COMP_' +author +']'
-                            #     raw_dataset['train']['text'].append(comp_token + ' [SEP] ' + situation_title)
+                            elif author_encoder == 'compositeUid':
+                                author = dataset.verdictToAuthor[verdict]
+                                author_token = '[' +author +']'
+                                comp_token = '[COMP_' +author +']'
+                                authors_tokens_set.add(author_token)
+                                raw_dataset['train']['text'].append(author_token + comp_token + ' [SEP] ' + situation_title)
+                            elif author_encoder == 'composite':
+                                author = dataset.verdictToAuthor[verdict]
+                                comp_token = '[COMP_' +author +']'
+                                raw_dataset['train']['text'].append(comp_token + ' [SEP] ' + situation_title)
                                 
                             else:
                                 raw_dataset['train']['text'].append(situation_title)
